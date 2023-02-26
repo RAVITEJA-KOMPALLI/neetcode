@@ -5,6 +5,15 @@ module.exports.getAllCourses = async function(){
 
 }
 
+module.exports.createCourse = async function(courseInput){
+    const courses = new courseModel(courseInput)
+    courses.save();
+}
+
+module.exports.createCourse = async function(courseId, updateInput){
+    await courseModel.findOneAndUpdate({_id: courseId}, updateInput)
+}
+
 module.exports.createFirstCourse = async function(){
     const courses = courseModel.find({})
     if (courses && (await courses).length == 0){
