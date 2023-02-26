@@ -1,0 +1,23 @@
+{
+  "name": "neetcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAVITEJA-KOMPALLI/neetcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RAVITEJA-KOMPALLI/neetcode/issues"
+  },
+  "homepage": "https://github.com/RAVITEJA-KOMPALLI/neetcode#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
